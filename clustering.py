@@ -6,7 +6,7 @@ from sklearn.metrics import confusion_matrix, classification_report
 from sklearn.cluster import KMeans
 from sklearn.metrics.cluster import v_measure_score
 
-url = "/week2/iris.csv"
+url = "resources/iris.csv"
 columnNames = 'id', 'SepalLength', 'SepalWidth', 'PetalLength', 'PetalWidth', 'Species'
 
 dataset = pd.read_csv(url, names=columnNames)
